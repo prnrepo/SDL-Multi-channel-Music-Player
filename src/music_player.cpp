@@ -1,5 +1,11 @@
 #include "music_player.h"
 
+//Sound is just a wrapper for an SDL_Mixer Mix_Chunk
+/*void Sound::play_music(const int play_channel)
+{
+	channel = Mix_PlayChannel(play_channel, pass_my_sfx(), -1);
+}*/
+
 MusicChannel::MusicChannel()
 {
 	free();
