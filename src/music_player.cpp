@@ -74,7 +74,7 @@ void MusicPlayer::silence()
 
 void MusicPlayer::update()
 {
-	const long double fade_velocity = 0.42;
+	const long double fade_velocity = 0.42;//The amount needed to fade in/out over 5 seconds
 
 	if (get_music_player_fade_type() == MusicChannel::FadingOutType)
 	{
