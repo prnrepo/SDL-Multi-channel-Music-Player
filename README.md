@@ -1,6 +1,6 @@
 ## SDL-Multi-channel-Music-Player
 
-This code snippet provides a utility function to play two synced Mix_Chunk tracks at the same time with the ability to fade in between both, as well as fading in another two tracks that will play synced (while fading out the previous tracks). It can be integrated into any project that requires multiple channels of music playing with SDL_Mixer.
+This code provides a utility function for SDL2 Mixer to play two synced Mix_Chunk tracks at the same time with the ability to fade in between both, as well as fading in another two tracks that will play synced (while fading out the previous tracks). It can be integrated into any project that requires multiple channels of music playing with SDL_Mixer.
 
 ## Integration
 
